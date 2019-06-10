@@ -9,5 +9,4 @@ def index():
 
 @app.route('/user/<name>')
 def user(name):
-    # return '<h2>Hello, dear {}!</h2>'.format(name)
-    return '<h2>Hello, dear {} <h2>'.format(name)
+    return '<h2>Hello, dear {}!</h2>'.format(name)
